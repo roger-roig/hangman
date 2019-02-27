@@ -2,26 +2,10 @@
 
 This game of hangman consisting in guessing one word chosen randomly from a word bank.
 
-Steps:
+The player can choose between a list of different topics (e.g. animals, food, instruments, car brands, capitals, society, hobbies, sports, human body, clothes, etc.).
 
-1 - Create a list of words or import an existing list (first try with short list of words then try importing a list like the one found in https://raw.githubusercontent.com/dwyl/english-words/master/words_alpha.txt)
+The computer will then choose a random word from the category that the player has chosen. It will then show the word with underscores to the player.
 
-2 - Create a list consisting of the characters of the word
+The computer will then ask the player a letter. The player will have a number of guesses depending the lenght of the word. 
 
-  Loop over steps 3-7 until word is found or game is over:
-  
-   3 - Print the word with all the characters replace with underscores
-  
-   4 - Ask the user for a letter
-  
-   5 - If the letter is on the list, delete it from the list and replace the corresponding underscore(s) with the letter
-  
-   6 - Else (if the letter is not on the list), start drawing the hangman (maybe draw depending on word length?)
-  
-   7 - Keep a list with all the used letters.
 
-8 - If the list of letters is empty then the user wins the game
-
-9 - If the hangman draw is completed then the game is over
-
-10 - Ask the user if he wants to play another game 
