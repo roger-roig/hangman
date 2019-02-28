@@ -1,6 +1,6 @@
 Steps:
 
-1 - Create a list of word for each different category
+1 - Create a list of words for each different category
 (animals, food, instruments, car brands, capitals, society,
  hobbies, sports, human body, clothes, etc.)
 
@@ -18,7 +18,8 @@ Steps:
   
    6 - If the letter is on the list, delete it from the list.
   
-   7 - Else, start drawing the hangman (maybe draw slower/faster depending on word length?)
+   7 - Else, start drawing the hangman. 
+       ( I will try for the hangman to be drawn slower or faster depending on the length of the word.)
   
 
 8 - If the list of letters is empty then the user wins the game
