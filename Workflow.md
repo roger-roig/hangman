@@ -9,7 +9,7 @@ Steps:
 3 - Randomly select a word from the chosen category
 
 
-  Loop over steps 4-8 until word is found or game is over:
+  Loop over steps 4-7 until word is found or game is over:
   
    4 - Print the word with all the non-guessed characters replaced with underscores
        and the guessed letters undercovered. Also show a list of the letters used so far.
