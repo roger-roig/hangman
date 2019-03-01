@@ -74,7 +74,6 @@ word = config_game()
 word_letters = set(word)
 used_letters = []
 guessed_letters = []
-chances = len(word)
 mistakes = 0
 
 
@@ -96,7 +95,7 @@ def draw_hangman():
 
 def play():
     global mistakes
-    for chance in range(chances):
+    for chance in range(len(word)*2):
         if mistakes == 5:
             break
         if not word_letters:
@@ -112,7 +111,7 @@ def play():
             used_letters.append(guess)
             mistakes += 1
             draw_hangman()
-    if not word_letters:
+    if word_letters:
         print(f'Game over! The word was {word}')
 
 
